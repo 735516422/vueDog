@@ -1,0 +1,75 @@
+.pet-main>.el-col,
+.pet-main>div>.el-col
+{
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    box-shadow: #e5e5e5 0px 0px 5px 1px;
+}
+/*面包屑*/
+.pet-main>.pet-top{
+    border: 1px solid #e5e5e5;
+}
+.pet-main>.pet-top .el-breadcrumb__item{
+    height: 56px;
+    line-height: 56px;
+    font-size: 16px;
+}
+.pet-main>.pet-top .el-breadcrumb__item:first-child{
+    margin-left: 20px; 
+}
+.pet-main>.pet-top .el-breadcrumb__item>.el-breadcrumb__inner{
+    color: #b3b3b3;
+}
+/*爱宠课堂*/
+.pet-main .pet-nav{
+    height: 200px;
+    background: url("../../img/newparentbg.f8d0befa.png") no-repeat;
+    background-size: cover;
+}
+.pet-main .pet-nav .pet-nav-title{
+    color: #fff;
+    height: 100px;
+    line-height: 100px;
+}
+.pet-main .pet-nav .pet-nav-input a{
+    background: #fff url("../../img/1498912806.png") no-repeat 5px 50%;
+    background-size: 30px; 
+    margin-top: 20px; 
+    border-radius: 30px;
+    padding-left:20px; 
+    height: 42px;
+    width: 127px;
+    line-height: 42px;
+    font-weight: bold ;
+    display: block;
+}
+/*品种课堂*/
+.pet-main .pet-breed .breed-top,.pet-main .pet-breed .breed-side .el-col{
+    margin-top: 20px;
+}
+.pet-breed .breed-side .el-col:last-child a{
+    display: block;
+    border: 1px solid #E60012;
+    border-radius: 30px;
+    color: #E60012;
+    width: 60%;
+    height: 42px;
+    margin: auto;
+    line-height: 42px;
+    font-weight: bold;
+}
+/*宠物健康*/
+.pet-care .pet-careInput{
+    width: 20%;
+    height: 38px;
+    border: 1px solid #E60012;
+    border-radius: 30px;
+    background: #E60012;
+    color: #fff;
+    line-height: 38px;
+    box-sizing: border-box;
+    margin-left: 35%; 
+    margin-top:  30px;
+    margin-bottom:  30px;
+    cursor: pointer;
+}

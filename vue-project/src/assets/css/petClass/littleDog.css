@@ -1,0 +1,161 @@
+/*视频*/
+.pet-main .video{
+    position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color:rgba(128,128,128, 0.7);
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 1050;
+}
+.pet-main .video>iframe{
+    position: absolute;
+    top:10%;
+    left: 15%;
+    width: 65%;
+    height: 80%;
+    opacity: 1;
+    display: block;
+}
+.pet-main .video a{
+    position: absolute;
+    top:10%;
+    left: 81%;
+    color: #000;
+    opacity: 0.5;
+}
+.pet-main .video a:hover{
+    opacity: 0.7;
+}.pet-main .video span{
+    display: block;
+}
+/*介绍*/
+.pet-main .pet-banner{
+    position: relative;
+}
+.pet-main .pet-banner .videoImg{
+    position: absolute;
+    top:10%;
+    left: 48%;
+    cursor: pointer;
+}
+.pet-main .pet-banner .videoCatImg{
+    position: absolute;
+    top:17%;
+    left: 22.5%;
+    cursor: pointer;
+}
+/*生活习性*/
+.pet-main .pet-life{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+ .pet-life-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #E60012;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.pet-main .pet-life .pet-life-content{
+    text-align: left;
+}
+.pet-main .pet-life .pet-life-content>h1{
+    color: #E60012;
+    padding-left: 10px;
+}
+.pet-main .pet-life .pet-life-content>span{
+    font-family: '黑体';
+    display: block;
+    padding-left: 10px;
+    width: 70%;
+    line-height: 2;
+}
+/*准备物品*/
+.pet-main .pet-life .shop{
+    width: 87%;
+    text-align: center;
+    margin: auto;
+    font-family: '黑体';
+    padding: 5px;
+    border: 3px solid #BFBFBF;
+    position: relative;
+    margin-top:200px; 
+}
+.pet-main .pet-life .shop>img{
+    position: absolute;
+    width: 50%;
+    left:25%;
+    top:-160px;
+}
+.pet-main .pet-life .shop>h1{
+    position: absolute;
+    width: 25%;
+    left:-12.5%;
+    top:10%;
+    background: #fff;
+    color: #E60012;
+}
+.pet-main .pet-life .shop-title{
+    margin-top:20%; 
+    margin-bottom: 50px;
+}
+.pet-main .pet-life .shop-title>span{
+    border: 2px solid #808285;
+    width: 15%;
+    display: inline-block;
+}
+.pet-main .pet-life .shop-title>h3{
+    display: inline-block;
+    margin-left:  20px;
+    margin-right:  20px;
+}
+.pet-main .pet-life .shopList>h3{
+    margin-top: 0;
+}
+.pet-main .pet-life .shopList>span{
+    display: block;
+    text-align: left;
+    color: #808285;
+    line-height: 2;
+}
+.pet-main .pet-life .shop-bottom>p{
+    color:  #808285;
+    text-align: left;
+    line-height: 2;
+    padding: 20px;
+}
+/*饮食*/
+.pet-diet{
+    padding: 40px 0;
+}
+.pet-diet .diet-img1{
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 80px;
+}
+.pet-diet .diet-img2{
+    text-align: right;
+    padding-bottom: 80px;
+    padding-right: 50px;
+}
+/*重要时刻*/
+.pet-impro{
+    padding: 60px 0;
+}
+.pet-impro .impro-jueyu{
+    padding-top: 40px;
+}
+.pet-impro .impro-quwen{
+    padding-top: 80px;
+}
+.pet-impro .impro-img1{
+    padding-top: 80px;
+}
+.pet-impro .impro-img2{
+    padding-top: 10px;
+}

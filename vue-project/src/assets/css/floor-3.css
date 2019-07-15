@@ -1,0 +1,21 @@
+@media screen and (max-width: 700px){
+    .floor-3 {
+      display: none;
+    }
+  }
+.floor-3 .title {
+    height: 42px;
+}
+.floor-3 .title a{
+    height: 100%;
+    display:inline-block;
+}
+.floor-3 .title span,.floor-3 .title img{
+    float: left;
+}
+.floor-3 .title span{
+    height: 42px;
+    line-height: 42px;
+    display:inline-block;
+    margin-left: 20px; 
+}

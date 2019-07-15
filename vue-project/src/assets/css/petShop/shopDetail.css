@@ -1,0 +1,27 @@
+.shopMd{
+    padding: 20px;
+
+}
+.shopDetail{
+    width: 100%;
+    text-align: left;
+    padding: 5%;
+    box-sizing: border-box;
+}
+.shopDetail h2{
+    border-bottom: 5px solid #E50011;
+    padding:10px; 
+}
+.shopDetail div{
+    border-bottom: 1px solid #e1e1e1;
+    padding: 10px;
+}
+.shopDetail div>span{
+    padding-left: 30px;
+    display: inline-block;
+}
+.shopDetail div>span:last-child{
+    font-size: 12px;
+    color: #77778C;
+    width: 50%;
+}

@@ -1,0 +1,21 @@
+
+#tab-1,#tab-2,#tab-3,#tab-4{
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.pet-main .tabs .tabs-wrap{
+    text-align: left;
+}
+.pet-main .tabs-wrap .tabs-content>h1{
+    background-color: #E60012;
+    color:#fff;
+    font-size: 18px;
+    height: 40px;
+    width: 30%;
+    line-height: 40px;
+    padding-left: 5px;
+}
+.pet-main .tabs-wrap .tabs-content>p{
+    margin-left:5%;
+}

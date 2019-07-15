@@ -1,0 +1,21 @@
+li{
+    list-style: none;
+}
+a{
+    cursor:pointer;
+    color: #606266;
+    text-decoration: none;
+}
+.clear:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.lf { float:left;}
+.rt { float:right;}
+.hoverColor{
+    color: #E60012;
+}
+.scrollHidden{
+    overflow: hidden;
+}

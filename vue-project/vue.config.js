@@ -1,0 +1,12 @@
+module.exports={
+    publicPath:'/',
+    outputDir:"dist",
+    assetsDir:'assets',
+    devServer:{
+        open:false,
+        host:'localhost',
+        port:8081,
+        https:false,
+        hotOnly:false
+    }
+}
